@@ -1,5 +1,5 @@
 {
-  "products": [
+  [
     {
       "id": "1",
       "name": "Annaprashan Puja",
@@ -41,7 +41,7 @@
 		{
 		  "text": "Professional Guidance & Support."
 		}
-	  ] 
+	  ]
     },
     {
       "id": "2",
@@ -88,7 +88,7 @@
 		{
 		  "text": "Professional Guidance & Support."
 		}
-	  ] 
+	  ]
     }
   ]
 }
