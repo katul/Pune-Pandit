@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Annaprashan Puja",
+	  "imagePath":"assets\img\related\InShot_20240418_212009781.jpg"
+      "description": "Annaprashan is the ceremony where the baby is introduced to solid foods preferably Sweet/Milk Rice for the first time. The puja is performed to bestow a very healthy and prosperous life for the baby.",
+      "pricing_details": {
+        "price": 3000
+      },
+      "Insights:": [
+        {
+          "text": "Baby takes solid food for the first time."
+        },
+        {
+          "text": "It helps the baby to grow healthy and strong."
+        },
+		{
+          "text": "Performed on 6th or 7th month on Janma Nakshatra day."
+        },
+		{
+          "text": "Mantras are chanted for the baby’s well-being."
+        },
+		{
+          "text": "Kheer or Milk Rice is the main ingredient for the ceremony."
+        }
+      ],
+	  "Promise":[
+		{
+		  "text": "Highly Qualified and Vedic Pandits."
+		},
+		{
+		  "text": "All rituals follow Vedic Standards and Procedures."
+		},
+		{
+		  "text": "High-quality Samagri to ensure a pleasant Puja experience."
+		},
+		{
+		  "text": "Guaranteed Punctuality and Authenticity."
+		},
+		{
+		  "text": "Professional Guidance & Support."
+		}
+	  ] 
+    },
+    {
+      "id": "2",
+      "name": "Bhoomi Puja",
+      "description": "Bhoomi Puja is performed for Goddess Bhoomi, Vastu Purush, the deity of directions, and the five elements of nature to remove negative influences or Vastu dosh in the plot or Land.",
+      "pricing_details": {
+        "price": 99.99,
+        "currency": "USD",
+        "discount": {
+          "amount": 10.00,
+          "type": "percentage"
+        }
+      },
+      "Insights:": [
+        {
+          "text": "To remove the existing ill-effects carried by land."
+        },
+        {
+          "text": "Positive energy is restored in the land."
+        },
+		{
+          "text": "Done before starting construction work on any piece of land."
+        },
+		{
+          "text": "Vastu Puja and Navagraha Puja are involved."
+        },
+		{
+          "text": "Main Deity: Bhoomi Mata (Mother Earth)."
+        }
+      ],
+	  "Promise":[
+		{
+		  "text": "Vedic Patashala certified and experienced priests."
+		},
+		{
+		  "text": "All rituals follow Vedic Standards and Procedures."
+		},
+		{
+		  "text": "High-quality Samagri to ensure a pleasant Puja experience."
+		},
+		{
+		  "text": "Guaranteed Punctuality and Authenticity."
+		},
+		{
+		  "text": "Professional Guidance & Support."
+		}
+	  ] 
+    }
+  ]
+}

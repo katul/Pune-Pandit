@@ -45,7 +45,7 @@ h6 {
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  background: #00a7a7;
+  background: #a70000;
   color: #fff;
   border-radius: 4px 4px 0 0;
   right: 15px;
@@ -69,7 +69,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #1dc8cd;
+  background: #ce130d;
   color: #fff;
 }
 
@@ -226,6 +226,18 @@ h6 {
   color: #333333;
 }
 
+#myTab{
+  justify-content: center;
+}
+
+#myTab li.nav-item{
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+.nav-link{
+  color:#a70000;
+}
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
@@ -233,7 +245,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #1dc8cd;
+  color: #ce130d;
 }
 
 .navbar .dropdown:hover>ul {
@@ -338,7 +350,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #1dc8cd;
+  color: #ce130d;
 }
 
 .navbar-mobile .getstarted,
@@ -373,7 +385,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #1dc8cd;
+  color: #ce130d;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -463,7 +475,7 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  color: #1dc8cd;
+  color: #ce130d;
   background: #fff;
 }
 
@@ -676,7 +688,7 @@ section {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1dc8cd;
+  color: #ce130d;
 }
 
 #about .content ul {
@@ -728,8 +740,8 @@ section {
 }
 
 #features .icon i:before {
-  background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: #ce130d;
+  background: linear-gradient(45deg, #ce130d 0%, #ce130d 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -759,6 +771,7 @@ section {
 --------------------------------*/
 #advanced-features {
   overflow: hidden;
+  margin-top:55px;
 }
 
 
@@ -770,15 +783,19 @@ section {
 }
 
 .icon img{
-height:55px;
-
+  height:55px;
 }
+
 #advanced-features h3 {
   margin-bottom: 0px;
   line-height: 29px;
   font-weight: 400;
   font-family: "ui sans-serif";
   color: #000;
+}
+
+#services h3{
+  margin-bottom: 0px;
 }
 
 #advanced-features p {
@@ -797,8 +814,8 @@ height:55px;
 }
 
 #advanced-features i:before {
-  background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: #ce130d;
+  background: #ce130d;
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -838,7 +855,7 @@ height:55px;
 --------------------------------*/
 #call-to-action {
   overflow: hidden;
-  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background:#ce130d, url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -876,8 +893,8 @@ height:55px;
 }
 
 #call-to-action .cta-btn:hover {
-  background: #1dc8cd;
-  border: 2px solid #1dc8cd;
+  background: #ce130d;
+  border: 2px solid #ce130d;
 }
 
 /* More Features Section
@@ -908,8 +925,8 @@ height:55px;
 }
 
 #more-features .icon i:before {
-  background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: #ce130d;
+  background: linear-gradient(45deg, #ce130d 0%, #ce130d 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -993,7 +1010,7 @@ height:55px;
 
 #pricing h4 {
   font-size: 46px;
-  color: #1dc8cd;
+  color: #ce130d;
   font-weight: 300;
 }
 
@@ -1020,7 +1037,7 @@ height:55px;
 }
 
 #pricing ul i {
-  color: #1dc8cd;
+  color: #ce130d;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1042,7 +1059,7 @@ height:55px;
 }
 
 #pricing .featured .get-started-btn {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #ce130d, #ce130d);
 }
 
 /* Frequently Asked Questions Section
@@ -1066,13 +1083,13 @@ height:55px;
 #faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #1dc8cd;
+  font-family: #ce130d;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #179ca0;
+  color: #ce130d;
   transition: 0.3s;
 }
 
@@ -1097,7 +1114,7 @@ height:55px;
 }
 
 #faq .faq-list .collapsed:hover {
-  color: #1dc8cd;
+  color: #ce130d;
 }
 
 #faq .faq-list .collapsed .icon-show {
@@ -1153,7 +1170,7 @@ height:55px;
 }
 
 #team .member .social a:hover {
-  color: #1dc8cd;
+  color: #ce130d;
 }
 
 #team .member .social i {
@@ -1222,7 +1239,7 @@ height:55px;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  color: #1dc8cd;
+  color: #ce130d;
 }
 
 #contact .contact-about h3 a {
@@ -1244,14 +1261,14 @@ height:55px;
 #contact .social-links a {
   font-size: 18px;
   background: #fff;
-  color: #1dc8cd;
+  color: #ce130d;
   padding: 8px 0;
   margin-right: 4px;
   border-radius: 50%;
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #1dc8cd;
+  border: 1px solid #ce130d;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1262,7 +1279,7 @@ height:55px;
 }
 
 #contact .social-links a:hover {
-  background: #1dc8cd;
+  background: #ce130d;
   color: #fff;
 }
 
@@ -1272,7 +1289,7 @@ height:55px;
 
 #contact .info i {
   font-size: 32px;
-  color: #00a7a7;
+  color: #ce130d;
   float: left;
   line-height: 0;
 }
@@ -1295,7 +1312,7 @@ height:55px;
 #contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #ce130d;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1315,7 +1332,7 @@ height:55px;
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #ce130d;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1329,11 +1346,11 @@ height:55px;
 
 #contact .php-email-form input::focus,
 #contact .php-email-form textarea::focus {
-  background-color: #1dc8cd;
+  background-color: #ce130d;
 }
 
 #contact .php-email-form button[type=submit] {
-  background: #00a7a7;
+  background: #ce130d;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1380,7 +1397,7 @@ height:55px;
 }
 
 #footer .footer-links a:hover {
-  color: #1dc8cd;
+  color: #ce130d;
 }
 .tab-content {
       margin-top: 20px;
