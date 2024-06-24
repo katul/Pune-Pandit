@@ -1,63 +1,62 @@
-document.addEventListener('DOMContentLoaded', function() {
-    async function fetchProducts() {
-        const response = await fetch('sample.json');
-        return await response.json();
-    }
 
-    function getProductById(products, id) {
-        return products.find(product => product.id === id);
-    }
+        var xhr = new XMLHttpRequest();
 
-    function getQueryParameter(name) {
-        const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get(name);
-    }
+        // Configure it: GET-request for the URL /data.json
+        xhr.open('GET', 'sample.json', true);
 
-    function renderProductDetails(product) {
-        const productDetailsDiv = document.getElementById('product-details');
-        
-        if (!product) {
-            productDetailsDiv.innerHTML = '<p>Product not found</p>';
-            return;
-        }
+        // Set the callback function to execute when the request completes
+        xhr.onload = function () {
+            if (xhr.status >= 200 && xhr.status < 300) {
+                // Parse the JSON data
+                var data = JSON.parse(xhr.responseText);
 
-        const productHTML = `
-            <h1>${product.name}</h1>
-            <img src="${product.image}" alt="${product.name}">
-            <p>${product.description}</p>
-            <h2>Pricing Details</h2>
-            <p>Price: ${product.pricing_details.currency} ${product.pricing_details.price}</p>
-            <p>Discount: ${product.pricing_details.discount.amount} (${product.pricing_details.discount.type})</p>
-            <h2>Product Attributes</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Attribute</th>
-                        <th>Value</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${product.table_data.map(item => `
-                        <tr>
-                            <td>${item.attribute}</td>
-                            <td>${item.value}</td>
-                        </tr>
-                    `).join('')}
-                </tbody>
-            </table>
-        `;
+                // Get the container where we will display the products
+                var productsContainer = document.getElementById('products-container');
 
-        productDetailsDiv.innerHTML = productHTML;
-    }
+                // Iterate over the products array
+                data.products.forEach(function(product) {
+                    // Create a div element for the product
+                    var productElement = document.createElement('div');
+                    productElement.classList.add('product');
 
-    const productId = getQueryParameter('id');
+                    // Format price details
+                    var priceDetails = `Price: ${product.pricing_details.price}`;
+                    if (product.pricing_details.currency) {
+                        priceDetails += ` ${product.pricing_details.currency}`;
+                    }
+                    if (product.pricing_details.discount) {
+                        var discount = product.pricing_details.discount;
+                        priceDetails += ` (Discount: ${discount.amount}${discount.type === 'percentage' ? '%' : ''})`;
+                    }
 
-    fetchProducts().then(products => {
-        const product = getProductById(products, productId);
-        renderProductDetails(product);
-    }).catch(error => {
-        console.error('Error fetching products:', error);
-        const productDetailsDiv = document.getElementById('product-details');
-        productDetailsDiv.innerHTML = '<p>Error loading product data</p>';
-    });
-});
+                    // Set the inner HTML of the product element
+                    productElement.innerHTML = `
+                        <h2>${product.name}</h2>
+                        <img src="${product.imagePath || ''}" alt="${product.name}">
+                        <p>${product.description}</p>
+                        <p>${priceDetails}</p>
+                        <h3>Insights:</h3>
+                        <ul>
+                            ${product["Insights:"].map(insight => `<li>${insight.text}</li>`).join('')}
+                        </ul>
+                        <h3>Promises:</h3>
+                        <ul>
+                            ${product.Promise.map(promise => `<li>${promise.text}</li>`).join('')}
+                        </ul>
+                    `;
+
+                    // Append the product element to the container
+                    productsContainer.appendChild(productElement);
+                });
+            } else {
+                console.error('Error loading data:', xhr.statusText);
+            }
+        };
+
+        // Set the callback function to execute in case of error
+        xhr.onerror = function () {
+            console.error('Network error');
+        };
+
+        // Send the request
+        xhr.send();
