@@ -63,18 +63,17 @@
                         // Append the product element to the container
                         productsContainer.appendChild(productElement);
                     });
-                  } else {
-                    console.error('Error loading data:', xhr.statusText);
+                  }else {
+                      document.getElementById('products-container').innerText = 'No content found here. Please go to <a href="/">Home</a>';
                   }
               };
 
-          // Set the callback function to execute in case of error
-          xhr.onerror = function () {
-              console.error('Network error');
-          };
+              // Set the callback function to execute in case of error
+              xhr.onerror = function () {
+                  console.error('Network error');
+              };
 
-          // Send the request
-          xhr.send();
-        }else {
-            document.getElementById('products-container').innerText = 'No content found here. Please go to <a href="/">Home</a>';
+              // Send the request
+              xhr.send();
+          }
         }
