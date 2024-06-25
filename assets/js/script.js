@@ -76,5 +76,5 @@
           // Send the request
           xhr.send();
         }else {
-            document.getElementById('products-container').innerText = 'No content found here. Please go to <a href="/">Home</a>'';
+            document.getElementById('products-container').innerText = 'No content found here. Please go to <a href="/">Home</a>';
         }
