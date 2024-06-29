@@ -1,4 +1,4 @@
-// Function to get query parameters
+		// Function to get query parameters
         function getQueryParam(param) {
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get(param);
@@ -6,30 +6,25 @@
 
         // Get the product ID from the query parameter
         const productId = getQueryParam('id');
+		
+        var xhr = new XMLHttpRequest();
 
-        if (productId) {
-            // Create a new XMLHttpRequest object
+        // Configure it: GET-request for the URL /data.json
+        xhr.open('GET', 'sample.json', true);
 
-          var xhr = new XMLHttpRequest();
+        // Set the callback function to execute when the request completes
+        xhr.onload = function () {
+            if (xhr.status >= 200 && xhr.status < 300) {
+                // Parse the JSON data
+                var data = JSON.parse(xhr.responseText);
 
-          // Configure it: GET-request for the URL /data.json
-          xhr.open('GET', 'sample.json', true);
+                // Get the container where we will display the products
+                var productsContainer = document.getElementById('products-container');
 
-          // Set the callback function to execute when the request completes
-          xhr.onload = function () {
-              if (xhr.status >= 200 && xhr.status < 300) {
-                  // Parse the JSON data
-                  var data = JSON.parse(xhr.responseText);
-
-                  // Find the product with the matching ID
-                  var product = data.products.find(p => p.id === productId);
-
-                  if(product){
-                    // Get the container where we will display the products
-                    var productsContainer = document.getElementById('products-container');
-
-                    // Iterate over the products array
-                    data.products.forEach(function(product) {
+                // Iterate over the products array
+                data.products.forEach(function(product) {
+                    var pid = product.id;
+                    if(pid==productId){
                         // Create a div element for the product
                         var productElement = document.createElement('div');
                         productElement.classList.add('product');
@@ -47,7 +42,7 @@
                         // Set the inner HTML of the product element
                         productElement.innerHTML = `
                             <h2>${product.name}</h2>
-                            <img src="assets\img\related\${product.imagePath || ''}" alt="${product.name}">
+                            <img src="${product.imagePath || ''}" alt="${product.name}">
                             <p>${product.description}</p>
                             <p>${priceDetails}</p>
                             <h3>Insights:</h3>
@@ -62,18 +57,17 @@
 
                         // Append the product element to the container
                         productsContainer.appendChild(productElement);
-                    });
-                  }else {
-                      document.getElementById('products-container').innerText = 'No content found here. Please go to <a href="/">Home</a>';
-                  }
-              };
+                    }
+                });
+            } else {
+                console.error('Error loading data:', xhr.statusText);
+            }
+        };
 
-              // Set the callback function to execute in case of error
-              xhr.onerror = function () {
-                  console.error('Network error');
-              };
+        // Set the callback function to execute in case of error
+        xhr.onerror = function () {
+            console.error('Network error');
+        };
 
-              // Send the request
-              xhr.send();
-          }
-        }
+        // Send the request
+        xhr.send();
