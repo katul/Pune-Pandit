@@ -57,6 +57,10 @@ h6 {
   height: 34px;
 }
 
+.text-brand-color{
+  color:#a70000;
+}
+
 .back-to-top i {
   line-height: 0;
   font-size: 20px;

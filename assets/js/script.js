@@ -41,18 +41,27 @@
 
                         // Set the inner HTML of the product element
                         productElement.innerHTML = `
-                            <h2>${product.name}</h2>
-                            <img src="${product.imagePath || ''}" alt="${product.name}">
-                            <p>${product.description}</p>
-                            <p>${priceDetails}</p>
-                            <h3>Insights:</h3>
-                            <ul>
-                                ${product["Insights:"].map(insight => `<li>${insight.text}</li>`).join('')}
-                            </ul>
-                            <h3>Promises:</h3>
-                            <ul>
-                                ${product.Promise.map(promise => `<li>${promise.text}</li>`).join('')}
-                            </ul>
+                            
+                            <div class="row">
+                            <div class="col-md-6">
+                                <img src="/assets/img/related/${product.imagePath || ''}" alt="${product.name}">
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <h2 class="text-brand-color"><Strong>${product.name}</strong></h2>
+                                <p>${product.description}</p>
+                                
+                                <h3 class="text-brand-color">Insights:</h3>
+                                <ul>
+                                    ${product["Insights:"].map(insight => `<li>${insight.text}</li>`).join('')}
+                                </ul>
+                                <!-- <h3>Promises:</h3>
+                                <ul>
+                                    ${product.Promise.map(promise => `<li>${promise.text}</li>`).join('')}
+                                </ul> -->
+                                <p class="mt-2">${priceDetails}</p>
+                            </div>
+                            
                         `;
 
                         // Append the product element to the container

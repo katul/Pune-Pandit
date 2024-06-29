@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Annaprashan Puja",
 	    "imagePath":"InShot_20240418_212009781.jpg",
-      "description": "Annaprashan is the ceremony where the baby is introduced to solid foods preferably Sweet/Milk Rice for the first time. The puja is performed to bestow a very healthy and prosperous life for the baby.",
+      "description": "<b>Annaprashan</b> is the ceremony where the baby is introduced to solid foods preferably Sweet/Milk Rice for the first time. The puja is performed to bestow a very healthy and prosperous life for the baby.",
       "pricing_details": {
         "price": 3000
       },
@@ -47,10 +47,10 @@
       "id": "2",
       "name": "Bhoomi Puja",
       "imagePath":"InShot_20240418_212009781.jpg",
-      "description": "Bhoomi Puja is performed for Goddess Bhoomi, Vastu Purush, the deity of directions, and the five elements of nature to remove negative influences or Vastu dosh in the plot or Land.",
+      "description": "<b>Bhoomi Puja</b> is performed for Goddess Bhoomi, Vastu Purush, the deity of directions, and the five elements of nature to remove negative influences or Vastu dosh in the plot or Land.",
       "pricing_details": {
         "price": 99.99,
-        "currency": "USD",
+        "currency": "INR",
         "discount": {
           "amount": 10.00,
           "type": "percentage"
@@ -90,6 +90,725 @@
 		  "text": "Professional Guidance & Support."
 		}
 	  ]
+    },
+    {
+      "id": "3",
+      "name": "Durga Puja",
+      "imagePath":"InShot_20240418_214039354.jpg",
+      "description": "Durga Mata is a very powerful deity. Performing this Puja protects people from all troubles and sufferings. A person will be blessed with happiness and positivity in life.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "To help flourish in business by removing obstacles."
+        },
+        {
+          "text": "Also conducted for peace and benefit of employees."
+        },
+		{
+          "text": "Done during Navratri time or Fridays."
+        },
+		{
+          "text": "Main deity: Durga Mata"
+        }
+      ],
+	  "Promise":[
+		{
+		  "text": "Vedic Professionals and experienced priests."
+		},
+		{
+		  "text": "All rituals follow Vedic Standards and Procedures."
+		},
+		{
+		  "text": "High-quality Samagri to ensure a pleasant Puja experience."
+		},
+		{
+		  "text": "Guaranteed Punctuality and Authenticity."
+		},
+		{
+		  "text": "Professional Guidance & Support."
+		}
+	  ]
+    },
+    {
+      "id": "4",
+      "name": "Engagement Puja",
+      "imagePath":"InShot_20240418_212009781.jpg",
+      "description": "Engagement is an occasion where there is a formal agreement to get married and families announce the same to society. It is also known as betrothal ceremony, Sagai, Ring ceremony, Nishchitartham, Roka, Chunni, etc.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "Endorsing the commitment towards starting a new family."
+        },
+        {
+          "text": "It strengthens the relationship between two families."
+        },
+		{
+          "text": "The date is fixed based on the auspicious alignments of the couple’s horoscope."
+        },
+		{
+          "text": "The Lagna Patrika is read as a sign of commitment."
+        }
+      ],
+	  "Promise":[
+		{
+		  "text": "Vedic Professionals and experienced priests."
+		},
+		{
+		  "text": "All rituals follow Vedic Standards and Procedures."
+		},
+		{
+		  "text": "High-quality Samagri to ensure a pleasant Puja experience."
+		},
+		{
+		  "text": "Guaranteed Punctuality and Authenticity."
+		},
+		{
+		  "text": "Professional Guidance & Support."
+		}
+	  ]
+    },
+    {
+      "id": "5",
+      "name": "Gand Mool Nakshatra Shanti Puja",
+      "imagePath":"InShot_20240418_212009781.jpg",
+      "description": "Sataisa Puja is performed when the baby is born in Ashvani, Ashlesha, Magha, Revati, Jyestha, and Moola Nakshatras. The child is said to be born in Gand Mool Nakshatras, it is very important to perform Gand mool nakshatra Shanti puja. It is performed for the well-being of the baby and its family members especially Mother, Father, and Mamaji.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "To get rid of the bad effects of Gand moola Nakshatra."
+        },
+        {
+          "text": "Performed to remove negative effects of Nakshatras."
+        },
+		    {
+          "text": "Also Known as Sataisa Puja."
+        },
+		    {
+          "text": "Performed on the 27th day after the birth of a child."
+        }
+        ,
+		    {
+          "text": "27 tree leaves and 27 well glasses of water are used."
+        }
+      ],
+	  "Promise":[
+		{
+		  "text": "Vedic Professionals and experienced priests."
+		},
+		{
+		  "text": "All rituals follow Vedic Standards and Procedures."
+		},
+		{
+		  "text": "High-quality Samagri to ensure a pleasant Puja experience."
+		},
+		{
+		  "text": "Guaranteed Punctuality and Authenticity."
+		},
+		{
+		  "text": "Professional Guidance & Support."
+		}
+	  ]
+    },
+    {
+      "id": "6",
+      "name": "Ganesh Puja",
+      "imagePath":"InShot_20240418_222230220.jpg",
+      "description": "Ganesh Puja is performed for Lord Ganapathi who removes all the obstacles and negative energies. This puja bestows a person with victory, brings harmony to the family, and helps to attain success in life.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "To retain health, wealth, and prosperity."
+        },
+        {
+          "text": "Ganesh is worshiped before doing any Auspicious activity."
+        },
+		    {
+          "text": "Deity Worshiped: Lord Ganesh."
+        },
+		    {
+          "text": "Durva/Doob grass are the key ingredients used."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Graha Shanti Puja",
+      "imagePath":"InShot_20240418_212009781.jpg",
+      "description": "Graha Shanti Puja is the set of Pujas and rituals that are performed for Navgrahas to remove all the graha dosh of the person and family.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "Performed before moving into a house, whether rented or owned."
+        },
+        {
+          "text": "Performed by Hindi-speaking North Indian Pandit."
+        },
+		    {
+          "text": "An auspicious date is compatible with Janma Nakshatra of wife/Female family head."
+        },
+		    {
+          "text": "It helps to please the planets and the Gods, and bring good fortune."
+        },
+		    {
+          "text": "Includes Navgraha Jaaps and Havan."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Griha Pravesh",
+      "imagePath":"InShot_20240418_212009781.jpg",
+      "description": "Griha Pravesh is the set of Pujas and rituals that are performed before a person starts to live in a new house. It is the process of cleansing the new house with Vedic mantras to make it peaceful and to live happily.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "Performed before moving into a house, whether rented or owned."
+        },
+        {
+          "text": "Performed by Hindi-speaking North Indian Pandit."
+        },
+		    {
+          "text": "An auspicious date is compatible with Janma Nakshatra of House owners."
+        },
+		    {
+          "text": "It helps to please the planets and the Gods, and bring good fortune."
+        },
+		    {
+          "text": "Includes Vastu Shanti, navagraha, and Laksmi Kubera havans."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Janamdin Puja – Birthday Puja",
+      "imagePath":"InShot_20240418_212009781.jpg",
+      "description": "Janamdin is one of the most important days in one’s life. Janamdin Puja is done on the date of birth and recommended for everyone for happy long life.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "Performed on Birthdate."
+        },
+        {
+          "text": "Get Blessings from the lord and elders."
+        },
+		    {
+          "text": "Graha Shanti Puja and havan are performed."
+        },
+		    {
+          "text": "Main Deity: Ganesh, Lakshmi, Navgraha."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Mahalaxmi Puja",
+      "imagePath":"InShot_20240418_212009781.jpg",
+      "description": "Mahalaxmi Puja is performed for Goddess Laxmi, the consort of Lord Vishnu is a manifestation of wealth, fortune, and prosperity. People who are involved in business or people who are facing financial problems may perform this puja to receive the blessings and grace of Goddess Laxmi and attain high revenues & profitability in business.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "To acquire wealth and prosperity."
+        },
+        {
+          "text": "Goddess Laxmi is the goddess of wealth, fortune, and prosperity."
+        },
+		    {
+          "text": "Done on Fridays or any other auspicious day based on the Janma Nakshatra."
+        },
+		    {
+          "text": "Deity worshiped: Goddess Laxmi."
+        },
+		    {
+          "text": "Lotus flowers are the main ingredients used."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Mundan(Chadukarna) Ceremony",
+      "imagePath":"InShot_20240418_212009781.jpg",
+      "description": "Mundan Ceremony is performed for the child, the hairs are shaved to signify freedom from the past and moving into the new life. Chudakarana is done to ensure the baby grows as a healthy and spiritual individual who is free from sins and also to attain the goodness of life.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "Performed in 1st or 3rd year."
+        },
+        {
+          "text": "Get Blessings from the lord for a healthy life."
+        },
+		    {
+          "text": "First hairs are shaved."
+        },
+		    {
+          "text": "Main Deity: Ganesh, Lakshmi, Navgraha."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Namkaran Puja",
+      "imagePath":"InShot_20240418_212009781.jpg",
+      "description": "Namkaran Puja is the naming ceremony of a newborn baby. It is performed to formally announce the baby’s name as per the suggestion of starting letter given by panditji based on the Nakshatra of the baby. Namkaran Puja is a ritual of providing Samskaras to the child, which is considered of utmost importance in shaping the character and upbringing of a child.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "Performed to name the newborn baby as per Shastras."
+        },
+        {
+          "text": "The name should signify sex, fame, wealth, power."
+        },
+		    {
+          "text": "Performed on the 11th day from the day of birth."
+        },
+		    {
+          "text": "Mantras are chanted for the baby’s well-being."
+        },
+		    {
+          "text": "Graha Shanti havan is performed."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "New Vehicle Puja",
+      "imagePath":"InShot_20240418_212009781.jpg",
+      "description": "Vahan Puja or New Vehicle puja is performed for a new vehicle to help the owner get all the positive benefits of the vehicle and avoid any untimely accidents. This puja is usually performed for removing any Doshas or Drishti associated with the vehicle.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "Performed for Newly purchased vehicle."
+        },
+        {
+          "text": "Can be performed at Home or Showroom."
+        },
+		    {
+          "text": "Hanuman, Bhairav, Shukra, Shani Pujan."
+        },
+		    {
+          "text": "Removes any Dosh or Dristhi."
+        },
+		    {
+          "text": "Protects the Owner of the vehicle."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Office Opening Puja",
+      "imagePath":"InShot_20240418_212009781.jpg",
+      "description": "In the New building or Place, many negative dosh and effects exist. By performing Office Opening Puja, blessings of Lord Ganesha and Mata Lakshmi are invoked to negate the power or influence of negative energies and bring in success in the business.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "To remove the existing ill-effects borne by the building or place."
+        },
+        {
+          "text": "Positive energy is restored in the office."
+        },
+		    {
+          "text": "Done before opening any new office or business."
+        },
+		    {
+          "text": "Ganesh puja, Lakshmi puja, and Navagraha puja are involved."
+        },
+		    {
+          "text": "Main Deity: Ganesha & Lakshmi."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Punsavan Sanskar",
+      "imagePath":"InShot_20240418_212009781.jpg",
+      "description": "Punsavan sanskar is performed in the third month of pregnancy to attain a healthy and strong child and attain blessings of lord for a smooth pregnancy. Punsavan sanskar also know as Pumsavan is the second sanskaras in the 16 sanskaras.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "Performed when the child is in the mother’s womb."
+        },
+        {
+          "text": "It ensures the welfare of the child and mother during pregnancy"
+        },
+		    {
+          "text": "Performed in the third month of pregnancy"
+        },
+		    {
+          "text": "Ganesh puja, Lakshmi puja, and Navagraha puja are involved."
+        },
+		    {
+          "text": "Get blessings from Divine for getting healthy baby."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Rudrabhishek Puja",
+      "imagePath":"InShot_20240418_212009781.jpg",
+      "description": "Rudrabhishek Puja is a very powerful pooja of Lord Shiv. Lord Ram did Rudrabhishekam in Rameswaram to Shiv lingam to get the blessings of Lord Shiva. This puja helps in having a strong mind, good health, and getting rid of evil effects. Performing this puja is to eliminate and overcome any obstacles that a person might come across in life. Lord Ram did Rudrabhishek in Rameshwaram to invoke Lord Shiva’s blessings before going to war with Ravan.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "Main Deity: Lord Shiva."
+        },
+        {
+          "text": "Milk, Curd, Panchamrit, water are used."
+        },
+		    {
+          "text": "Done on an auspicious day based on the Janma Nakshatra."
+        },
+		    {
+          "text": "Performed to remove the Negative effects of Nakshatras."
+        },
+		    {
+          "text": "To achieve victory over death."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Satyanarayan Puja",
+      "imagePath":"InShot_20240419_093053909.jpg",
+      "description": "Satyanarayan Puja is performed to appease Lord Satyanarayan, the most compassionate form of Lord Vishnu. Satya means Truth; Narayana means The highest being. Hence Lord Satyanarayan is considered the epitome of Truth and Justice. The puja is done to offer gratitude to the almighty on the start or successful completion of auspicious events in a person’s life. The puja is also performed to fulfill people’s wishes and desires. The purpose of this puja is to bring friends and family together, encourage unity and harmony to make sure that abundance, prosperity, general happiness, and well-being prevail in the family.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "Main Deity: Satyanarayan Bhagwan."
+        },
+        {
+          "text": "Main Prasad: Rava Sheera."
+        },
+		    {
+          "text": "Done on Poornima, Ekadashi, Saturday, or any Shub Muhurat."
+        },
+		    {
+          "text": "Performed by Hindi-speaking North Indian Pandit."
+        },
+		    {
+          "text": "To gain success in business or career growth."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Vastu Shanti Puja",
+      "imagePath":"InShot_20240418_212009781.jpg",
+      "description": "Vastu Shanti puja is performed for Vastu Purush, lord of directions, five elements of nature to remove negative influences, or Vastu dosh of the home or office to have a good and happy life.  A home that is Vastu compliant will radiate Positive energy, reduces the malefic effects of bad Vastu, and help maintain the peace, harmony, and prosperity of the people staying in the home. Vastu Shanti Puja grants mercy in case the construction of the building had caused any harm to any living thing like trees, animals, birds, insects, etc.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "Main Deity: Vastu Purush."
+        },
+        {
+          "text": "Vastu puja and Navagraha puja are involved."
+        },
+		    {
+          "text": "To remove the existing ill-effects or doshas at home or office."
+        },
+		    {
+          "text": "Positive energy is restored in the home."
+        },
+		    {
+          "text": "To gain success in business or career growth."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Vishwakarma Puja",
+      "imagePath":"InShot_20240418_212009781.jpg",
+      "description": "Lord Vishwakarma is the chief deity of all architects and craftsmen also known as Devashilpi. This puja is performed to please Lord Vishwakarma and get his blessings for a happy and wealthy life.  Lord Vishwakarma is worshipped by engineers, architects, craftsmen, factory workers, and people in all professions as a mark of reverence to ensure a harmonious and prosperous career. ",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "Main Deity: Lord Vishwakarma."
+        },
+        {
+          "text": "Gains involvement in anything he does and can make the best in his field."
+        },
+		    {
+          "text": "Vishwakarma Puja is done to worship all the material realms one utilizes in his/her livelihood."
+        },
+		    {
+          "text": "All the instruments used in our daily life are cleaned and worshipped on this day."
+        },
+		    {
+          "text": "Puja is celebrated a day after Diwali."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
     }
+
+
   ]
 }
