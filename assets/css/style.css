@@ -1429,7 +1429,11 @@ section {
   padding: 20px;
   background-color: #f9f9f9;
 }
-
+.details-page img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
 .content {
   display: none;
   flex-direction: column;
