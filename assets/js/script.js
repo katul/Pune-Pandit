@@ -44,7 +44,7 @@
                             
                             <div class="row">
                             <div class="col-md-6">
-                                <img src="/assets/img/related/${product.imagePath || ''}" alt="${product.name}">
+                                <img src="assets/img/related/${product.imagePath || ''}" alt="${product.name}">
                                 
                             </div>
                             <div class="col-md-6">
