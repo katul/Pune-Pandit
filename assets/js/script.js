@@ -30,13 +30,13 @@
                         productElement.classList.add('product');
 
                         // Format price details
-                        var priceDetails = `Price: ${product.pricing_details.price}`;
+                        var priceDetails = `Price: 0.00`;
                         if (product.pricing_details.currency) {
-                            priceDetails += ` ${product.pricing_details.currency}`;
+                            priceDetails += `0.00`;
                         }
                         if (product.pricing_details.discount) {
                             var discount = product.pricing_details.discount;
-                            priceDetails += ` (Discount: ${discount.amount}${discount.type === 'percentage' ? '%' : ''})`;
+                            priceDetails += `0.00`;
                         }
 
                         // Set the inner HTML of the product element
