@@ -20,7 +20,7 @@ fetch('sample.json')
 
             content.innerHTML = `
                 
-                <a href="/details.html?id=${product.id}"><img src="assets/img/related/${product.imagePath}" alt="${product.name}" width="200"></a>
+                <a href="details.html?id=${product.id}"><img src="assets/img/related/${product.imagePath}" alt="${product.name}" width="200"></a>
 				<h2>${product.name}</h2>
                 <!-- <p>${product.description}</p>
                 <p><strong>Price:</strong> ₹${product.pricing_details.price}</p>
