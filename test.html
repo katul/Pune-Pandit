@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puja and Havan Services</title>
+    <style>
+        .tabs {
+			display: flex;
+			cursor: pointer;
+			padding: 10px;
+			background-color: #f1f1f1;
+		}
+
+		.tabs div {
+			margin-right: 10px;
+			padding: 10px;
+			background-color: #ddd;
+			border-radius: 5px;
+		}
+
+		.tabs div.active {
+			background-color: #fff;
+			border-bottom: 2px solid #f1f1f1;
+		}
+
+		.content-container {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 20px;
+			padding: 20px;
+			background-color: #f9f9f9;
+		}
+
+		.content {
+			display: none;
+			flex-direction: column;
+			width: auto;
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			padding: 15px;
+			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		}
+
+		.content.active {
+			display: flex;
+		}
+
+		.content img {
+			max-width: 100%;
+			height: auto;
+			border-radius: 5px;
+			margin-bottom: 10px;
+		}
+
+		.content h2 {
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+
+		.content p {
+			font-size: 14px;
+			margin-bottom: 10px;
+		}
+
+		.content ul {
+			list-style: none;
+			padding: 0;
+			font-size: 14px;
+		}
+
+		.content ul li {
+			margin-bottom: 5px;
+		}
+		.item_name{
+			text-decoration:none;
+			justify-content:center;
+		}
+    </style>
+</head>
+<body>
+
+<div class="tabs"></div>
+<div class="content-container"></div>
+
+<script>
+   // Fetch JSON data from an external source
+fetch('sample.json')
+    .then(response => response.json())
+    .then(data => {
+        const tabsContainer = document.querySelector('.tabs');
+        const contentContainer = document.querySelector('.content-container');
+
+        const createTab = (type, isActive) => {
+            const tab = document.createElement('div');
+            tab.textContent = type.charAt(0).toUpperCase() + type.slice(1);
+            tab.dataset.tab = type;
+            if (isActive) tab.classList.add('active');
+            tabsContainer.appendChild(tab);
+        };
+
+        const createContent = (product) => {
+            const content = document.createElement('div');
+            content.classList.add('content');
+			content.classList.add('col-md-3');
+            content.dataset.tab = product.type;
+
+            content.innerHTML = `
+                
+                <a href="/details.html?id=${product.id}"><img src="assets/img/related/${product.imagePath}" alt="${product.name}" width="200"></a>
+				<h2>${product.name}</h2>
+                <!-- <p>${product.description}</p>
+                <p><strong>Price:</strong> ₹${product.pricing_details.price}</p>
+                <h3>Insights:</h3>
+                <ul>${product["Insights:"].map(item => `<li>${item.text}</li>`).join('')}</ul>
+                <h3>Promise:</h3>
+                <ul>${product.Promise.map(item => `<li>${item.text}</li>`).join('')}</ul> -->
+            `;
+            contentContainer.appendChild(content);
+        };
+
+        const types = Array.from(new Set(data.products.map(product => product.type)));
+        types.forEach((type, index) => createTab(type, index === 0));
+
+        data.products.forEach(product => createContent(product));
+
+        const tabs = document.querySelectorAll('.tabs div');
+        const contents = document.querySelectorAll('.content');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(item => item.classList.remove('active'));
+                tab.classList.add('active');
+
+                const selectedTab = tab.getAttribute('data-tab');
+                contents.forEach(content => {
+                    if (content.dataset.tab === selectedTab) {
+                        content.style.display = 'flex'; // Show content of selected tab
+                    } else {
+                        content.style.display = 'none'; // Hide content of other tabs
+                    }
+                });
+            });
+        });
+		const activeTabs = document.querySelectorAll('.tabs div.active');
+		activeTabs.forEach(activetab => {
+			const selectedTab = activetab.getAttribute('data-tab');
+			contents.forEach(content => {
+				if (content.dataset.tab === selectedTab) {
+					content.style.display = 'flex'; // Show content of selected tab
+				} else {
+					content.style.display = 'none'; // Hide content of other tabs
+				}
+			});
+		});
+				
+		
+		
+    })
+    .catch(error => console.error('Error fetching data:', error));
+
+
+</script>
+
+</body>
+</html>

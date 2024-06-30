@@ -1403,10 +1403,75 @@ section {
 #footer .footer-links a:hover {
   color: #ce130d;
 }
-.tab-content {
-      margin-top: 20px;
-    }
-    .tab-pane img {
-      width: 100%;
-      height: auto;
-    }
+.tabs {
+  display: flex;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.tabs div {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.tabs div.active {
+  background-color: #fff;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.content {
+  display: none;
+  flex-direction: column;
+  width: 14em;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content.active {
+  display: flex;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.content h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.content ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+}
+
+.content ul li {
+  margin-bottom: 5px;
+}
+.item_name{
+  text-decoration:none;
+  justify-content:center;
+}
