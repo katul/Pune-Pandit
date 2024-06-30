@@ -912,25 +912,151 @@
     },
     {
       "id": "22",
-      "type":"puja",
-      "name": "Yagnopavit Sanskar",
-      "imagePath":"yagnopavit_sanskar.jpg",
-      "description": "Yagnopavit Sanskar or Upnayan Sanskar is performed to a boy who enters the age of 8. It makes a person fit to receive instruction in the Vedas and spread divine power throughout the world. Panditji begins this puja with Gauri Ganesh puja, Punyaha Vachan, Maha Sankalpam, Kalash puja, Upnayan. The havan is performed as per the Shastras. A Brahmin is also called a Dwija that means the one who is born twice. A boy is said to be born again when you perform Janeu Sanskar. A sacred thread, called Janeu or Yajnopaveetam is placed around the left shoulder of the boy.",
+      "type":"hawan",
+      "name": "Ayush Havan",
+      "imagePath":"InShot_20240418_132850045.jpg",
+      "description": "Ayush havan creates positive vibrations and shields you against diseases and other health disorders. Lord Ayurdevata, an incarnation of Lord Vishnu is the chief deity of the havan who is the divine physician for all the three worlds. During Havan, Gauri Ganesh Kalash Nava Graha puja is performed and Ayush Suktam mantras are recited by the priest and the Havan is performed.",
       "pricing_details": {
         "price": 99.99
       },
       "Insights:": [
         {
-          "text": "The boy attains the right to study Vedas through this sanskar."
+          "text": "Deity Worshiped is Lord Ayurdevata."
         },
         {
-          "text": "This allows a Brahman boy to enter into Brahmacharya Avastha."
+          "text": "Lord Ayurdevata is the divine physician."
         },
 		    {
-          "text": "The three threads stand for Brahma, Vishnu, and Siva."
+          "text": "Performed on Janma Nakshatra."
         },
 		    {
-          "text": "Done on an auspicious date compatible with Nakshatra of the boy."
+          "text": "To get rid of all health problems or disorders."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "type":"hawan",
+      "name": "Chandi Havan",
+      "imagePath":"chandi_hawan.jpg",
+      "description": "Chandi Havan is performed to receive the blessings of Goddess Chandi Devi. This is one of the most powerful havans one can perform for eliminating all kinds of problems and to ensure a grand success in life. Performing Chandi havan helps one to attain success in their life by overcoming barriers and obstacles, liberates one from evil eyes, curses and bestows one with wealth and prosperity. Types of Chandi Havan: Eka Chandi – Havan, Nava Chandi – Havan & Satha Chandi – Havan",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "Deity Worshiped: Goddess Chandi."
+        },
+        {
+          "text": "All Nava Grahas are invoked."
+        },
+		    {
+          "text": "Performed on Fridays, Ashtami’s and Navami’s."
+        },
+		    {
+          "text": "13 unique ingredients are used for 13 chapters of Saptashati."
+        },
+		    {
+          "text": "Eliminates all the negative energies."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "type":"hawan",
+      "name": "Ganapati Havan",
+      "imagePath":"ganpati_hawan.jpg",
+      "description": "Ganapathi Havan is performed to invoke the blessings of Lord Ganapathi, who brings victory and harmony in life by removing all the obstacles, negative energies from your life. Performing Ganapathi havan bestows the person with prosperity, wealth, and health. Ganapathi Havan is performed when a person is starting a new business or investment; on a house warming; on a wedding; on one’s birthday or to reduce the unfavorable influence of Ketu.",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "Deity Worshiped: Lord Ganapati"
+        },
+        {
+          "text": "This homam is performed before any Function, ceremony."
+        },
+		    {
+          "text": "Ganapati is worshiped before doing any Auspicious activity."
+        },
+		    {
+          "text": "To retain health, wealth, and prosperity."
+        }
+      ],
+      "Promise":[
+        {
+          "text": "Vedic Professionals and experienced priests."
+        },
+        {
+          "text": "All rituals follow Vedic Standards and Procedures."
+        },
+        {
+          "text": "High-quality Samagri to ensure a pleasant Puja experience."
+        },
+        {
+          "text": "Guaranteed Punctuality and Authenticity."
+        },
+        {
+          "text": "Professional Guidance & Support."
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "type":"hawan",
+      "name": "Gayatri Havan",
+      "imagePath":"InShot_20240418_132850045.jpg",
+      "description": "Gayatri Mata is considered the mother of all four Vedas. Performing this Jaap brings the blessings of the Sun, eradicates the sins of past life, helps to get rid of pitru dosh, enlightens and enables a person to possess divine qualities and success in life. Gayatri Jaap is performed by panditji, starting with Gauri Ganesh puja, Kalash Navgraha Puja, and the Jaap is chanted. In the end, a havan is performed. ॥ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यम् भर्गो देवस्य धीमहि धियो यो नः प्रचोदयात् ॥",
+      "pricing_details": {
+        "price": 99.99
+      },
+      "Insights:": [
+        {
+          "text": "Deity Worshiped: Goddess Gayatri and Savita."
+        },
+        {
+          "text": "Performed as per Janma Nakshatra and Agnivas."
+        },
+		    {
+          "text": "Helps to get rid of Pitru dosh."
+        },
+		    {
+          "text": "To achieve Victory and Success in life."
         }
       ],
       "Promise":[
