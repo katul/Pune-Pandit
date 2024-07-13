@@ -1479,3 +1479,33 @@ section {
   text-decoration:none;
   justify-content:center;
 }
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #a70000;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+.back-button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Adjust as needed */
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid white; /* Adjust size and color as needed */
+  transform: translateY(-50%);
+}

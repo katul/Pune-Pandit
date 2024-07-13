@@ -1,4 +1,8 @@
-		// Function to get query parameters
+function goBack() {
+    window.history.back();
+}
+        
+        // Function to get query parameters
         function getQueryParam(param) {
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get(param);
