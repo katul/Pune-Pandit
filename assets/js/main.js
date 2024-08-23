@@ -202,3 +202,11 @@ tabs.forEach(tab => {
     activePane.classList.add('active');
   });
 });
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}

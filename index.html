@@ -705,30 +705,6 @@
               <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
               <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
-            <!--<div class="form">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="row">
-                  <div class="form-group col-lg-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                  </div>
-                  <div class="form-group col-lg-6 mt-3 mt-lg-0">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-                  </div>
-                </div>
-                <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
-                </div>
-                <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
-              </form>
-            </div> -->
           </div>
 
         </div>
@@ -758,9 +734,86 @@
       </div>
     </div>
   </footer><!-- End  Footer -->
+  <a href="https://wa.me/1234567890?text=Hello%20I%20am%20interested%20in%20your%20services" target="_blank" class="whatsapp-button">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  </a>
+  <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-chevron-up"></i></a> -->
+  <button class="back-to-top open-button" onclick="openForm()"><img class="checkout" src="/assets/img/check-out.png"/><span> Book your puja service</span></button>
+  
+  <div class="form-popup" id="myForm">
+    <div class="form-body">
+      <div class="row">
+          <div class="form-holder">
+              <div class="form-content">
+                  <div class="form-items">
+                      <h3>Register Today</h3>
+                      <p>Fill in the data below.</p>
+                      <form class="requires-validation" novalidate>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-chevron-up"></i></a>
+                          <div class="col-md-12">
+                             <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                             <div class="valid-feedback">Username field is valid!</div>
+                             <div class="invalid-feedback">Username field cannot be blank!</div>
+                          </div>
 
+                          <div class="col-md-12">
+                              <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                               <div class="valid-feedback">Email field is valid!</div>
+                               <div class="invalid-feedback">Email field cannot be blank!</div>
+                          </div>
+
+                         <div class="col-md-12">
+                              <select class="form-select mt-3" required>
+                                    <option selected disabled value="">Position</option>
+                                    <option value="jweb">Junior Web Developer</option>
+                                    <option value="sweb">Senior Web Developer</option>
+                                    <option value="pmanager">Project Manager</option>
+                             </select>
+                              <div class="valid-feedback">You selected a position!</div>
+                              <div class="invalid-feedback">Please select a position!</div>
+                         </div>
+
+
+                         <div class="col-md-12">
+                            <input class="form-control" type="password" name="password" placeholder="Password" required>
+                             <div class="valid-feedback">Password field is valid!</div>
+                             <div class="invalid-feedback">Password field cannot be blank!</div>
+                         </div>
+
+
+                         <div class="col-md-12 mt-3">
+                          <label class="mb-3 mr-1" for="gender">Gender: </label>
+
+                          <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off" required>
+                          <label class="btn btn-sm btn-outline-secondary" for="male">Male</label>
+
+                          <input type="radio" class="btn-check" name="gender" id="female" autocomplete="off" required>
+                          <label class="btn btn-sm btn-outline-secondary" for="female">Female</label>
+
+                          <input type="radio" class="btn-check" name="gender" id="secret" autocomplete="off" required>
+                          <label class="btn btn-sm btn-outline-secondary" for="secret">Secret</label>
+                             <div class="valid-feedback mv-up">You selected a gender!</div>
+                              <div class="invalid-feedback mv-up">Please select a gender!</div>
+                          </div>
+
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label">I confirm that all data are correct</label>
+                       <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
+                      </div>
+                
+
+                          <div class="form-button mt-3">
+                              <button type="submit" class="btn">Register</button>
+                              <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

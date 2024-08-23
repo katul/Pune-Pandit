@@ -1,6 +1,28 @@
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the popup container
+    var popup = document.querySelector('.form-popup');
+    if(popup){
+        popup.addEventListener('click', function() {
+            popup.classList.add('show');
+        });
+    }
+
+    // Close button functionality
+    var closeBtn = document.querySelector('.close-btn');
+    if(closeBtn){
+        closeBtn.addEventListener('click', function() {
+            popup.classList.remove('show');
+        });
+    }
+});
+
 function goBack() {
     window.history.back();
 }
+
+
+
+
         
         // Function to get query parameters
         function getQueryParam(param) {
@@ -46,26 +68,41 @@ function goBack() {
                         // Set the inner HTML of the product element
                         productElement.innerHTML = `
                             
-                            <div class="row">
+                        <div class="row">
                             <div class="col-md-6">
-                                <img src="assets/img/related/${product.imagePath || ''}" alt="${product.name}">
-                                
+                                <img src="assets/img/related/${product.imagePath || ''}" alt="${product.name}">  
                             </div>
                             <div class="col-md-6">
                                 <h2 class="text-brand-color"><Strong>${product.name}</strong></h2>
                                 <p>${product.description}</p>
-                                
                                 <h3 class="text-brand-color">Insights:</h3>
                                 <ul>
                                     ${product["Insights:"].map(insight => `<li>${insight.text}</li>`).join('')}
                                 </ul>
-                                <!-- <h3>Promises:</h3>
-                                <ul>
-                                    ${product.Promise.map(promise => `<li>${promise.text}</li>`).join('')}
-                                </ul> -->
-                                <p class="mt-2">${priceDetails}</p>
+                                <p>Available Packages for this service :</p>
+                                <div class="pricing">
+                                    
+                                    <div class="price-option price-option--low">
+                                        <div class="price-option__detail">
+                                        <span class="price-option__cost">${product.pricing_details.basic}</span>
+                                        </div>
+                                        <a href="#" class="price-option__purchase">Basic</a>
+                                    </div>
+                                    <div class="price-option price-option--mid">
+                                        <div class="price-option__detail">
+                                        <span class="price-option__cost">${product.pricing_details.special}</span>
+                                        </div>
+                                        <a href="#" class="price-option__purchase">Special</a>
+                                    </div>
+                                    <div class="price-option price-option--high">
+                                        <div class="price-option__detail">
+                                            <span class="price-option__cost">${product.pricing_details.premium}</span>
+                                        </div>
+                                        <a href="#" class="price-option__purchase">Premium</a>
+                                    </div>
+                                </div>
                             </div>
-                            
+                         </div>
                         `;
 
                         // Append the product element to the container

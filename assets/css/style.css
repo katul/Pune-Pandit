@@ -53,8 +53,6 @@ h6 {
   transition: none;
   visibility: hidden;
   opacity: 0;
-  width: 64px;
-  height: 34px;
 }
 
 .text-brand-color{
@@ -1508,4 +1506,382 @@ section {
   border-bottom: 5px solid transparent;
   border-right: 5px solid white; /* Adjust size and color as needed */
   transform: translateY(-50%);
+}
+
+.open-button {
+  background-color: #a70000;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 13px;
+  right: 23px;
+  width: auto;
+  border-radius:40px;
+  font-weight: 700;
+  font-size:20px;
+}
+.checkout{
+  max-height: 25px;
+  max-width: 25px;
+  margin-top:-10px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  animation: jump 2s linear;
+  transform-origin: bottom;
+}
+
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.form-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-holder .form-content {
+position: relative;
+text-align: center;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-align-items: center;
+align-items: center;
+padding: 5px;
+background-color:#ffb300;
+opacity: 1000;
+}
+
+.form-content .form-items {
+border: 3px solid #fff;
+padding: 40px;
+display: inline-block;
+width: 100%;
+min-width: 540px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+text-align: left;
+-webkit-transition: all 0.4s ease;
+transition: all 0.4s ease;
+}
+
+.form-content h3 {
+color: #fff;
+text-align: left;
+font-size: 28px;
+font-weight: 600;
+margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+margin-bottom: 30px;
+}
+
+.form-content p {
+color: #fff;
+text-align: left;
+font-size: 17px;
+font-weight: 300;
+line-height: 20px;
+margin-bottom: 30px;
+}
+
+
+.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+color: #fff;
+}
+
+.form-content input[type=text], .form-content input[type=password], .form-content input[type=email], .form-content select {
+width: 100%;
+padding: 9px 20px;
+text-align: left;
+border: 0;
+outline: 0;
+border-radius: 6px;
+background-color: #fff;
+font-size: 15px;
+font-weight: 300;
+color: #8D8D8D;
+-webkit-transition: all 0.3s ease;
+transition: all 0.3s ease;
+margin-top: 16px;
+}
+
+
+.btn-primary{
+background-color: #6C757D;
+outline: none;
+border: 0px;
+ box-shadow: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+background-color: #495056;
+outline: none !important;
+border: none !important;
+ box-shadow: none;
+}
+
+.form-content textarea {
+position: static !important;
+width: 100%;
+padding: 8px 20px;
+border-radius: 6px;
+text-align: left;
+background-color: #fff;
+border: 0;
+font-size: 15px;
+font-weight: 300;
+color: #8D8D8D;
+outline: none;
+resize: none;
+height: 120px;
+-webkit-transition: none;
+transition: none;
+margin-bottom: 14px;
+}
+
+.form-content textarea:hover, .form-content textarea:focus {
+border: 0;
+background-color: #ebeff8;
+color: #8D8D8D;
+}
+
+.mv-up{
+margin-top: -9px !important;
+margin-bottom: 8px !important;
+}
+
+.invalid-feedback{
+color: #ff606e;
+}
+
+.valid-feedback{
+color: #2acc80;
+}
+
+
+
+.pricing {
+  -moz-transform: translate(-49%, -49.1%);
+  -ms-transform: translate(-49%, -49.1%);
+  -webkit-transform: translate(-49%, -49.1%);
+  transform: translate(-49%, -49.1%);
+  position: relative;
+  left: 27%;
+  margin-top: 6rem;
+  width: 350px;
+  font-size: 0;
+  opacity: 1;
+  transition: opacity .2s ease;
+}
+.pricing p {
+  color:#000;
+  display: inline-block;
+}
+.price-option {
+  display: inline-block;
+  width: 6.25em;
+  vertical-align: middle;
+  margin-right: 1rem;
+  font-size: 16px;
+  opacity: 1;
+  transition: opacity .2s ease;
+}
+
+.price-option:last-child {
+  margin-right: 0;
+}
+
+.pricing:hover .price-option {
+  opacity: 0.6;
+}
+
+.pricing:hover .price-option:hover {
+  opacity: 1;
+}
+
+.price-option__detail {
+  padding: 2em 0;
+  
+  text-align: center;
+}
+
+.price-option--low{
+  background-color: #e1b250;
+}
+
+.price-option--mid{
+  background-color: #617ea8;
+}
+
+.price-option--high{
+  background-color: #8c8ce9;
+}
+
+.price-option--low .price-option__detail {
+  border-radius: .25em 0 0 0;
+
+}
+
+.price-option--mid .price-option__detail {
+  padding: 2.3em 0;
+  border-radius: .25em .25em 0 0;
+}
+
+.price-option--high .price-option__detail {
+  border-radius: 0 .25em 0 0;
+}
+
+.price-option__cost,
+.price-option__type {
+  display: block;
+}
+
+.price-option__cost {
+  font-size: 1.5em;
+  color: #383838;
+}
+
+.price-option__type {
+  font-size: .7em;
+  text-transform: uppercase;
+  color: #909090;
+}
+
+.price-option__purchase {
+  position: relative;
+  display: block;
+  padding: .6em;
+  font-size: .875em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.price-option--low .price-option__purchase {
+  background: #a7d155;
+  border-radius: 0 0 0 .25em;
+}
+
+.price-option--mid .price-option__purchase {
+  background: #eada42;
+  border-radius: 0 0 .25em .25em;
+}
+
+.price-option--high .price-option__purchase {
+  background: #e54e4b;
+  border-radius: 0 0 .25em 0;
+}
+
+.price-option__purchase:before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  display: block;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-style: solid;
+}
+
+.price-option--low .price-option__purchase:before {
+  border-color: transparent transparent #a7d155;
+}
+
+.price-option--mid .price-option__purchase:before {
+  border-color: transparent transparent #eada42;
+}
+
+.price-option--high .price-option__purchase:before {
+  border-color: transparent transparent #e54e4b;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  background-color: #25D366;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  animation: jump 2s infinite;
+  transform-origin: bottom;
+}
+.whatsapp-button img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Keyframes for the Jumping Animation */
+@keyframes jump {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-15px);
+  }
 }
