@@ -1539,6 +1539,7 @@ section {
   z-index: 9;
   animation: jump 2s linear;
   transform-origin: bottom;
+  background-color: brown;
 }
 
 

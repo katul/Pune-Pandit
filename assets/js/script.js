@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var popup = document.querySelector('.form-popup');
     if(popup){
         popup.addEventListener('click', function() {
-            popup.classList.add('show');
+            accessIframeForm();
         });
     }
 
@@ -14,7 +14,28 @@ document.addEventListener("DOMContentLoaded", function() {
             popup.classList.remove('show');
         });
     }
+
+    
+    
 });
+
+function accessIframeForm(){
+    var iframe = document.getElementById('formIframe'); // Get the iframe element
+    var iframeDocument = iframe.contentDocument || iframe.contentWindow.document; // Access the document inside the iframe
+
+    var style = iframeDocument.createElement('style');
+    style.type = 'text/css';
+    style.innerHTML = `
+        body {
+            background-color: lightblue;
+        }
+        #someElement {
+            font-size: 20px;
+            color: red;
+        }
+    `;
+    iframeDocument.head.appendChild(style);
+}
 
 function goBack() {
     window.history.back();
